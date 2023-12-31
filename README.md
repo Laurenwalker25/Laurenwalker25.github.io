@@ -1,1 +1,1 @@
-# Laurenwalker25.github.io
+Website for Camp Kesem at Duke University.

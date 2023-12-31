@@ -1,1 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+:root {
+    --kesem-blue: #4891ff;
+    --light-color: #f4f4f6;
+    --dark-color: #111;
+    --kesem-green: #52EB34;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+/* Your existing styles for list items */
+
+img {
+    max-width: 100%;
+}
+/* Navbar */
+.navbar {
+    background: var(--kesem-blue);
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+.navbar .container {
+    display: felx;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+    text-align: center;
+    float: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #E1D9D1;
+}
+
+/* Home */
+.home {
+    margin-bottom: 50px;
+}
+
+.home .container {
+    background: white;
+}
+
+.home .home-heading {
+    width: 70%;
+    margin-bottom: 20px;
+}
+.home .home-text {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+/* Important Dates */
+.dates {
+    margin-bottom: 50px;
+}
+
+.dates .dates-heading {
+    width: 70%;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Announcements */
+.announcements {
+    margin-bottom: 50px;
+}
+
+.announcements .announcements-heading {
+    width: 70%;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+/* Utility Classes */
+.containter {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+.containter-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+/* Buttons */
+.btn-blue {
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--kesem-blue);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.btn-green {
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--kesem-green);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+/*Text Classes*/
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 0px 0 5px;
+}s
+
+.text-center {
+    text-align: center;
+}
+
+.link-class {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.link-class:hover {
+    color: #0056b3;
+}
+
+
+/* Background */
+.bg {
+    background: var(--light-color);
+}
+/*section divider*/
+
+hr {
+    margin: 2em auto;
+    height: 1px;
+    background-color: #D3D3D3; 
+    border: none;
+    width: 40%;
+  }

@@ -10,18 +10,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./images/logo.png" type=type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./logo.png" type="image/x-icon"/>
 </head>
 <body>
     <nav class="navbar">
             <div class="main-menu">
                 <ul>
                     <li>
-                        <a href="index.html">Welcome</a>
+                        <a href="./index.html">Welcome</a>
                     </li>
                     <li>
-                        <a href="#">Student Volunteers</a>
+                             <div class="dropdown">
+                            <button class="dropbtn">Student Volunteers
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href = "./dates.html">Dates for Students</a>
+                                <a href = "#">Student Links</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="#">Camper Families</a>
@@ -30,13 +39,22 @@
                         <a href="#">Questions and Feedback</a>
                     </li>
                     <li>
-                        <a href="#">More</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">More
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href = "#">Art Museum</a>
+                                <a href = "#">Merch</a>
+                                <a href = "#">Support Us</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <img src="./images/colorwars.png" alt="cover photo">
+    <img src="./colorwars.png" alt="cover photo">
     <!--Home-->
     <section class="home">
         <center>
@@ -76,7 +94,7 @@
     <hr>
     <center>
         <div class="home-buttons">
-            <a href="mailto: duke@kesem.org" class="btn-blue">Contact Us</a>
+            <a href="mailto: duke@kesem.org" class="btn-green">Contact Us</a>
         </div>
     </center>
     </section>
